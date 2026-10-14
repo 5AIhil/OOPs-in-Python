@@ -12,7 +12,7 @@ class User:
         print('email fetching')
         return self._email 
 
-    @email.setter 
+    @email.setter  # this is an public email property while protecting the original email
     def email(self, new_email):
         if '@' in new_email:
             print('setting new email')

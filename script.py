@@ -15,8 +15,8 @@ class User:
 user1 = User('sahil', 'sfsdf@gmail.com', '12345')
 #user2 = User('john', 'asdsf@gmail.com', '12345')
 
-print(user1._email)
-
+print(user1._email) # just a convention not a true private variable
+# to tell python developers that it shouldnt be accessed outside the class
 user1.email = 'dan@gmail.com'
 
 print(user1.email)

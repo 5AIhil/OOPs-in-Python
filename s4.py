@@ -26,3 +26,11 @@ user3.display_user()
 print(f'Total users: {user.user_count}') # accessing the static variable using the class name   
 
 print(user2._user__count) # accessing the static variable using the object  
+
+# static attributes are used for data that are common to all objects 
+# and don't need to be repeated for each object
+# static method do not take self as a parameter
+# they cannot instance attributes or method
+# they can access the static attributes 
+
+# these attribute are directly tied to the class and shared across all instances

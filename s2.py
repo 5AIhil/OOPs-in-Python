@@ -22,3 +22,6 @@ print(user1.get_email())
 #user1._email = 'sasf'. this should not be done 
 user1.set_email('scac')
 print(user1.get_email())
+
+# mantains the integrity of the data 
+# helps to access and modify the data in an controlled way
